@@ -25,7 +25,7 @@ Skrypt umożliwiający automatyzacje zadań związanych z optymalizacją szybko�
 - `gulp js:concat` - łączy wszystkie pliki JS w jeden plik, minifikuje i umieszcza w katalogu `dist` pod nazwą `all.min.js`
 - `gulp clean:all` - czyści zawartość katalogów `dist` i `src`.
 - `gulp clean:dist` - czyści zawartość katalogi `dist`.
-- `gulp clean:src` - czyści zawartość katalogi `dist`.
+- `gulp clean:src` - czyści zawartość katalogi `src`.
 
 ## Uwagi
 

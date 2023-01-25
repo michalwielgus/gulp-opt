@@ -8,9 +8,10 @@ Skrypt umożliwiający automatyzacje zadań związanych z optymalizacją szybko�
 2. Zrestartuj terminal WSL, następnie sprawdź, czy NVM zainstalował się poprawnie poleceniem `nvm -v`. Jeżeli pojawi się numer wersji wszystko jest w porządku. W przeciwnym wypadku sprawdź możliwe rozwiązania problemu tutaj: https://github.com/nvm-sh/nvm#troubleshooting-on-linux
 3. Zainstaluj najnowszą wersję LTS Node.js poleceniem `nvm install --lts`. Po poprawnej instalacji polecenie `node -v` powinno wyświetlić numer wersji.
 4. Zainstaluj Gulp.js globalnie poleceniem `npm install -g gulp`. Po poprawnej installacji polecenie `gulp -v` powinno wyświetlić numer wersji CLI.
-5. Pobierz to repozytorium, rozpakuj je.
-6. W wyszukiwarce Windows wpisz `\\wsl$\` i uruchom, otworzy Ci się folder WSL. Przejdź do `<nazwa_dystybucji>/home/<nazwa_uzytkownika>` i tam umieść rozpakowany katalog.
-7. W terminalu WSL przejdź do tego katalogu (`cd ~/gulp-opt`) i wykonaj polecenie `npm install`
+5. Wykonaj polecenia `sudo apt-get update --fix-missing` i `sudo apt-get install -y libjpeg-dev libpng-dev libtiff-dev libgif-dev`
+6. Pobierz to repozytorium, rozpakuj je.
+7. W wyszukiwarce Windows wpisz `\\wsl$\` i uruchom, otworzy Ci się folder WSL. Przejdź do `<nazwa_dystybucji>/home/<nazwa_uzytkownika>` i tam umieść rozpakowany katalog.
+8. W terminalu WSL przejdź do tego katalogu (`cd ~/gulp-opt`) i wykonaj polecenie `npm install`
 
 ## Użycie
 
